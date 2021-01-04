@@ -1,5 +1,5 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  data.collect {|element| element.}
+  pigeon_list << data.collect {|element| element.}
 end
