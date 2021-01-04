@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
           if !final_array[name]
             final_array[name] = {}
         end
-        
+        inner_key.each do |color|
+          if !final_array[color]
+            final_array[color] = {}
     end
     final_array
   end
